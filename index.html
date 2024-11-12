@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Facial Emotion Recognition</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Real-Time Facial Emotion Recognition</h1>
+        <p>Detect emotions from live video feed.</p>
+    </header>
+
+    <main>
+        <video id="video" autoplay></video>
+        <button id="startButton">Start Emotion Detection</button>
+        <div id="emotionOutput">Emotion: <span id="emotion"></span></div>
+    </main>
+</body>
+</html>
